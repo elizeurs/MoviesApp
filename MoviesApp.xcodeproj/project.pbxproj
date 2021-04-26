@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		753D28D126374501009295F2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D28D026374501009295F2 /* API.swift */; };
 		75915E102637467E00D7857E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75915E0F2637467E00D7857E /* Movie.swift */; };
+		75915E1326374F2000D7857E /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75915E1226374F2000D7857E /* HTTPClient.swift */; };
 		8D7ACB4124D1E4B100644453 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ACB4024D1E4B100644453 /* AppDelegate.swift */; };
 		8D7ACB4324D1E4B100644453 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ACB4224D1E4B100644453 /* SceneDelegate.swift */; };
 		8D7ACB4524D1E4B100644453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D7ACB4424D1E4B100644453 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		753D28D026374501009295F2 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		75915E0F2637467E00D7857E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		75915E1226374F2000D7857E /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		8D7ACB3D24D1E4B100644453 /* MoviesApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoviesApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D7ACB4024D1E4B100644453 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8D7ACB4224D1E4B100644453 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 		8D7ACB5924D1E50B00644453 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				75915E1226374F2000D7857E /* HTTPClient.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				8D7ACB5D24D1E54500644453 /* Rating.swift in Sources */,
 				8D7ACB6224D1E5A700644453 /* ImageLoader.swift in Sources */,
 				8D7ACB4124D1E4B100644453 /* AppDelegate.swift in Sources */,
+				75915E1326374F2000D7857E /* HTTPClient.swift in Sources */,
 				8D7ACB4324D1E4B100644453 /* SceneDelegate.swift in Sources */,
 				753D28D126374501009295F2 /* API.swift in Sources */,
 				8D7ACB4524D1E4B100644453 /* ContentView.swift in Sources */,
