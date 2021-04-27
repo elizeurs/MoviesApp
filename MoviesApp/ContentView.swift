@@ -8,6 +8,7 @@
 
 import SwiftUI
 
+// not the rootView anymore. MovieListScreen is the current rootView.
 struct ContentView: View {
     var body: some View {
         Text("Hello, World!")
