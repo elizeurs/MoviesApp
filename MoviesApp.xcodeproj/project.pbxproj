@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7511A33C2639B9AC00769E40 /* MovieDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7511A33B2639B9AC00769E40 /* MovieDetail.swift */; };
 		753D28D126374501009295F2 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753D28D026374501009295F2 /* API.swift */; };
 		7583AE212638675400C52DDF /* MovieListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7583AE202638675400C52DDF /* MovieListScreen.swift */; };
 		7583AE2426386A4100C52DDF /* MovieListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7583AE2326386A4100C52DDF /* MovieListView.swift */; };
@@ -32,6 +33,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7511A33B2639B9AC00769E40 /* MovieDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetail.swift; sourceTree = "<group>"; };
 		753D28D026374501009295F2 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		7583AE202638675400C52DDF /* MovieListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListScreen.swift; sourceTree = "<group>"; };
 		7583AE2326386A4100C52DDF /* MovieListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieListView.swift; sourceTree = "<group>"; };
@@ -173,6 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				75915E0F2637467E00D7857E /* Movie.swift */,
+				7511A33B2639B9AC00769E40 /* MovieDetail.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 				7583AE2A2638B2D600C52DDF /* String+Extensions.swift in Sources */,
 				8D7ACB6024D1E57700644453 /* Constants.swift in Sources */,
 				75915E102637467E00D7857E /* Movie.swift in Sources */,
+				7511A33C2639B9AC00769E40 /* MovieDetail.swift in Sources */,
 				8D7ACB5D24D1E54500644453 /* Rating.swift in Sources */,
 				8D7ACB6224D1E5A700644453 /* ImageLoader.swift in Sources */,
 				8D7ACB4124D1E4B100644453 /* AppDelegate.swift in Sources */,
