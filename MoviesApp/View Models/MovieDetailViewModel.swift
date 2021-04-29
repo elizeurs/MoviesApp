@@ -48,7 +48,7 @@ class MovieDetailViewModel: ObservableObject {
   }
   
   var plot: String {
-    self.movieDetail?.poster ?? ""
+    self.movieDetail?.plot ?? ""
   }
   
   var rating: Int {
